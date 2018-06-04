@@ -1,0 +1,96 @@
+2018/06/03 10:20:24 - System.Data.OleDb.OleDbException (0x80004005): [DBNETLIB][ConnectionOpen (Connect()).]SQL Server does not exist or access denied.
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at SuperTicTacToe.modDatabaseUtilities.OpenDatabaseConnectionSQLServer() in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 74
+
+2018/06/03 10:22:39 - System.Data.OleDb.OleDbException (0x80004005): [DBNETLIB][ConnectionOpen (Connect()).]SQL Server does not exist or access denied.
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at SuperTicTacToe.modDatabaseUtilities.OpenDatabaseConnectionSQLServer() in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 74
+
+2018/06/03 10:22:50 - System.InvalidOperationException: ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+   at System.Data.OleDb.OleDbConnection.CheckStateOpen(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteScalar()
+   at SuperTicTacToe.modDatabaseUtilities.StartGame(String strPlayerName, Boolean blnComputerMovesFirst, Int32 intGameDifficultyID, Int32 intGameOutcomeID, DateTime dtmPlayed) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 197
+
+2018/06/03 10:22:51 - System.InvalidOperationException: ExecuteNonQuery requires an open and available Connection. The connection's current state is closed.
+   at System.Data.OleDb.OleDbConnection.CheckStateOpen(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SuperTicTacToe.modDatabaseUtilities.EnterMove(Int32 intGameID, Int32 intMoveIndex, Int32 intGroup, Int32 intSquare) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 242
+
+2018/06/03 10:23:08 - System.InvalidOperationException: ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+   at System.Data.OleDb.OleDbConnection.CheckStateOpen(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnection(String method)
+   at System.Data.OleDb.OleDbCommand.ValidateConnectionAndTransaction(String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteScalar()
+   at SuperTicTacToe.modDatabaseUtilities.StartGame(String strPlayerName, Boolean blnComputerMovesFirst, Int32 intGameDifficultyID, Int32 intGameOutcomeID, DateTime dtmPlayed) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 197
+
+2018/06/03 19:01:01 - System.Data.OleDb.OleDbException (0x80004005): [DBNETLIB][ConnectionOpen (Connect()).]SQL Server does not exist or access denied.
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at SuperTicTacToe.modDatabaseUtilities.OpenDatabaseConnectionSQLServer() in D:\Projects\SuperTicTacToe FINAL\SuperTicTacToe\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 74
+
+2018/06/03 19:03:40 - System.Data.OleDb.OleDbException (0x80004005): [DBNETLIB][ConnectionOpen (Connect()).]SQL Server does not exist or access denied.
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at SuperTicTacToe.modDatabaseUtilities.OpenDatabaseConnectionSQLServer() in D:\Projects\SuperTicTacToe FINAL\SuperTicTacToe\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 74
+
+2018/06/03 19:05:03 - System.Data.OleDb.OleDbException (0x80004005): [DBNETLIB][ConnectionOpen (Connect()).]SQL Server does not exist or access denied.
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at SuperTicTacToe.modDatabaseUtilities.OpenDatabaseConnectionSQLServer() in D:\Projects\SuperTicTacToe FINAL\SuperTicTacToe\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 74
+
+2018/06/03 19:05:06 - System.Data.OleDb.OleDbException (0x80004005): [DBNETLIB][ConnectionOpen (Connect()).]SQL Server does not exist or access denied.
+   at System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OleDb.OleDbConnection.Open()
+   at SuperTicTacToe.modDatabaseUtilities.OpenDatabaseConnectionSQLServer() in D:\Projects\SuperTicTacToe FINAL\SuperTicTacToe\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 74
+

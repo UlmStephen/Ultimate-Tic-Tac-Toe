@@ -1,0 +1,18 @@
+2017/04/18 10:22:25 - System.Data.OleDb.OleDbException (0x80040E2F): The INSERT statement conflicted with the FOREIGN KEY constraint "TGameMoves_TGames_FK". The conflict occurred in database "dbUltimateTicTacToe", table "dbo.TGames", column 'intGameID'.
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SuperTicTacToe.modDatabaseUtilities.EnterMove(Int32 intGameID, Int32 intMoveIndex, Int32 intGroup, Int32 intSquare) in C:\Users\sulm2\Documents\Visual Studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 242
+
+2017/04/18 10:22:27 - System.Data.OleDb.OleDbException (0x80040E2F): The INSERT statement conflicted with the FOREIGN KEY constraint "TGameMoves_TGames_FK". The conflict occurred in database "dbUltimateTicTacToe", table "dbo.TGames", column 'intGameID'.
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at SuperTicTacToe.modDatabaseUtilities.EnterMove(Int32 intGameID, Int32 intMoveIndex, Int32 intGroup, Int32 intSquare) in C:\Users\sulm2\Documents\Visual Studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 242
+
+2017/04/18 12:31:58 - System.Data.OleDb.OleDbException (0x80040E2F): The statement has been terminated.
+The INSERT statement conflicted with the FOREIGN KEY constraint "TGames_TGameDifficulties_FK". The conflict occurred in database "dbUltimateTicTacToe", table "dbo.TGameDifficulties", column 'intGameDifficultyID'.
+   at System.Data.OleDb.OleDbDataReader.ProcessResults(OleDbHResult hr)
+   at System.Data.OleDb.OleDbDataReader.NextResult()
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteScalar()
+   at SuperTicTacToe.modDatabaseUtilities.StartGame(String strPlayerName, Boolean blnComputerMovesFirst, Int32 intGameDifficultyID, Int32 intGameOutcomeID, DateTime dtmPlayed) in C:\Users\sulm2\Documents\Visual Studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\SuperTicTacToe\Modules\modDatabaseUtilities.vb:line 197
+

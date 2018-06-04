@@ -1,0 +1,5 @@
+2017/02/23 16:00:58 - System.ArgumentOutOfRangeException: Index -1 is out of range.
+Parameter name: index
+   at System.Windows.Forms.Control.ControlCollection.get_Item(Int32 index)
+   at SuperTicTacToe.FMain.CheckColumnVictory(Int32 intIndex, Color clrTarget) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 373
+

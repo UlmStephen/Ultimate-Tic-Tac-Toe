@@ -1,0 +1,9 @@
+2017/02/07 14:01:08 - System.InvalidCastException: Unable to cast object of type 'System.Windows.Forms.GroupBox' to type 'SuperTicTacToe.CLocalBoard'.
+   at SuperTicTacToe.FMain.DetectBigBoardWin(CLocalBoard grpSender, CPlayer clsPlayer) in C:\Users\sulm2\Documents\Visual Studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\FMain.vb:line 688
+
+2017/02/07 14:03:40 - System.InvalidCastException: Unable to cast object of type 'System.Windows.Forms.GroupBox' to type 'SuperTicTacToe.CLocalBoard'.
+   at SuperTicTacToe.FMain.DetectBigBoardWin(CLocalBoard grpSender, CPlayer clsPlayer) in C:\Users\sulm2\Documents\Visual Studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\FMain.vb:line 688
+
+2017/02/07 14:12:53 - System.InvalidCastException: Unable to cast object of type 'System.Windows.Forms.GroupBox' to type 'SuperTicTacToe.CLocalBoard'.
+   at SuperTicTacToe.FMain.DetectBigBoardWin(GroupBox grpSender, CPlayer clsPlayer) in C:\Users\sulm2\Documents\Visual Studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\FMain.vb:line 688
+

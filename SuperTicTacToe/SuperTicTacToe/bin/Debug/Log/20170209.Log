@@ -1,0 +1,28 @@
+2017/02/09 12:05:27 - System.InvalidCastException: Unable to cast object of type 'System.Windows.Forms.GroupBox' to type 'SuperTicTacToe.CLocalBoard'.
+   at SuperTicTacToe.FMain.CheckForWin(GroupBox grpTarget, Int32 intIndex, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 567
+   at SuperTicTacToe.FMain.DetectBigBoardWin(GroupBox grpSender, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 759
+
+2017/02/09 13:42:42 - System.InvalidCastException: Unable to cast object of type 'System.Windows.Forms.GroupBox' to type 'SuperTicTacToe.CLocalBoard'.
+   at SuperTicTacToe.FMain.CheckForWin(GroupBox grpTarget, Int32 intIndex, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 564
+   at SuperTicTacToe.FMain.DetectBigBoardWin(GroupBox grpSender, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 756
+
+2017/02/09 13:42:50 - System.InvalidCastException: Unable to cast object of type 'System.Windows.Forms.GroupBox' to type 'SuperTicTacToe.CLocalBoard'.
+   at SuperTicTacToe.FMain.CheckForWin(GroupBox grpTarget, Int32 intIndex, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 564
+   at SuperTicTacToe.FMain.DetectBigBoardWin(GroupBox grpSender, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 756
+
+2017/02/09 16:16:02 - System.InvalidCastException: Unable to cast object of type 'System.Windows.Forms.GroupBox' to type 'SuperTicTacToe.CLocalBoard'.
+   at SuperTicTacToe.FMain.CheckForWin(GroupBox grpTarget, Int32 intIndex, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 575
+   at SuperTicTacToe.FMain.DetectBigBoardWin(GroupBox grpSender, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 767
+
+2017/02/09 16:27:46 - System.InvalidCastException: Unable to cast object of type 'System.Windows.Forms.GroupBox' to type 'SuperTicTacToe.CLocalBoard'.
+   at SuperTicTacToe.FMain.CheckForWin(GroupBox grpTarget, Int32 intIndex, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 583
+   at SuperTicTacToe.FMain.DetectBigBoardWin(GroupBox grpSender, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 775
+
+2017/02/09 16:27:49 - System.InvalidCastException: Unable to cast object of type 'System.Windows.Forms.GroupBox' to type 'SuperTicTacToe.CLocalBoard'.
+   at SuperTicTacToe.FMain.CheckForWin(GroupBox grpTarget, Int32 intIndex, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 583
+   at SuperTicTacToe.FMain.DetectBigBoardWin(GroupBox grpSender, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 775
+
+2017/02/09 16:28:02 - System.InvalidCastException: Unable to cast object of type 'System.Windows.Forms.GroupBox' to type 'SuperTicTacToe.CLocalBoard'.
+   at SuperTicTacToe.FMain.CheckForWin(GroupBox grpTarget, Int32 intIndex, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 583
+   at SuperTicTacToe.FMain.DetectBigBoardWin(GroupBox grpSender, CPlayer clsPlayer) in C:\Users\sulm2\documents\visual studio 2013\Projects\SuperTicTacToe\SuperTicTacToe\Forms\FMain.vb:line 775
+
